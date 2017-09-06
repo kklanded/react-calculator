@@ -1,7 +1,12 @@
-import http from 'http';
-import fs from 'fs';
-import url from 'url';
-import path from 'path';
+// import http from 'http';
+// import fs from 'fs';
+// import url from 'url';
+// import path from 'path';
+
+const http = require('http');
+const fs = require('fs');
+const url = require('url');
+const path = require('path');
 
 /**
  * Function to be used as a callback to our http.createServer method
