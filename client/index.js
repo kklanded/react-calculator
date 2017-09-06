@@ -3,6 +3,7 @@
 
 const React = require('react');
 const ReactDOM = require('react-dom');
+import './styles/main.css'; // import our external css file
 
 
 // using the render method, we will mount this node into our DOM (html file) on the element with
